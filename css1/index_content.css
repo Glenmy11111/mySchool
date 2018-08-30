@@ -1,0 +1,36 @@
+.content{
+	width:100%;
+	height:750px;
+	margin:0px auto;
+	color:black;
+	font-size:1.2em;
+    
+ }
+  .box{
+  	width:40%;
+  	height:350px;
+  	margin-top:15px;
+  	position:relative;
+  	display:inline-block;
+  	margin-left:50px;
+  	border-radius:1em;
+  	box-shadow:1px 2px 1em gray;
+  	transition:all ease-in-out 0.6s;
+  }
+
+  .box :hover{
+  	box-shadow:1px 2px 1.5em black;
+  	transition:all ease-in-out 0.6s;
+  }
+
+  .box a .text{
+  	position:absolute;
+  	text-align:center;
+  	color:black;
+  	width:40px;
+  	height:300px;
+  	font-size:25px;
+  	top:1em;
+  	right:0.6em;
+    text-shadow:2px 3px 1em yellow;
+  }
